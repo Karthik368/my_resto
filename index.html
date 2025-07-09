@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Icon" href="resto_logo.png">
+    <title>Great Kome -- Restro & Bar</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 18px;
+        border: 3px solid black;
+        background-color: #0a0908fc;
+        position: fixed ;
+        width: 100%;
+    }
+    #child-header{
+        display: flex;
+        column-gap: 50px;
+    }
+    a:hover{
+        color: brown;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: whitesmoke;
+    }
+    #first{
+        background-image: url("bar_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #first_child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 5px solid white;
+        width: 800px;
+        background-color: rgba(0, 0, 0, 0.684);
+        color: rgb(240, 67, 10);
+        border-radius: 25px;
+    }
+    #second{
+        background-image: url("foodbg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    #second_child{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        border: 8px solid white;
+        border-radius: 25px;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.663);
+    }
+    #second_child:hover{
+        cursor: pointer;
+        width: 250px;
+        height: 500px;
+    }
+    #third{
+        background-image: url("item.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    } 
+    #footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 25px;
+        background-color: black;
+    }
+    #add{
+        align-items: center;
+        padding: right 15px;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    .nut{
+        width: 140px;
+        height: 45px;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 25px;
+        border: none;
+        background-color: aqua;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+</style>
+<body>
+    <header>
+        <div id="header">
+            <div>
+                <img src="resto_logo.png" alt="reat Kome -- Restro & Bar Logo" width="200px">
+            </div>
+            <div id="child-header">
+            <a href="index.html">HOME</a>
+            <a href="#second">FOODS</a>
+            <a href="#third">DRINKS</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="">CONTACT US</a>
+            <a href="booking.html">BOOK A TABLE</a>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div id="first">
+            <div id="first_child">
+                <h1 style="font-size: 100px;">Great Kome</h1>
+                <h1 style="font-size: 50px;"> 🍽️ Resturo & Bar 🍷</h1> 
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="second">
+        <div>
+        </div>
+        <div id="second_child">
+            <img src="Chicken-Biryani-2-3.jpg" width="200px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Biryani</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Biryani is a mixed rice dish originating in South Asia, made with rice, meat (chicken, goat, lamb, beef) or seafood (prawns or fish), and spices. </p>
+        </div>
+          <div id="second_child">
+            <img src="chicken_lollipop.jpg" width="190px">
+            <h1 style="font-size: 30px; color: whitesmoke;"> Chicken Lollipop</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Restaurant Style Lollipop Chicken is a spicy chicken drumsticks coated in finger licking marinate and fried till crispy.  </p>
+        </div>
+          <div id="second_child">
+            <img src="fried.jpg" width="150px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Fried rice</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Fried rice is a popular dish made by stir-frying cooked rice with ingredients like vegetables, eggs, meat, or seafood. It’s seasoned with soy sauce, garlic, and other spices. </p>
+        </div>
+    </div>
+    <div id="second">
+        <div>
+        </div>
+        <div id="second_child">
+            <img src="pizza.jpg" width="200px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Pizza's</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Pizza is a delicious dish loved globally. Tangy tomato sauce, and gooey cheese, it's endlessly customizable—topped with veggies, meats, or pineapple (if you're brave!).</p>
+        </div>
+          <div id="second_child">
+            <img src="burger.jpg" width="245px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Burger</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">A burger is a savory sandwich made with a grilled patty—typically beef or chicken—served inside a sliced bun. It's often layered with lettuce, tomato, cheese, onions, and condiments like ketchup or mayo.</p>
+        </div>
+          <div id="second_child">
+            <img src="butter_naan.jpg" width="200px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Butter Naan</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Butter naan is a soft, leavened Indian flatbread, cooked in a tandoor (clay oven) and brushed generously with melted butter. </p>
+        </div>
+    </div>
+    <br>
+    <div id="third">
+        <div>
+        </div>
+        <div id="second_child">
+            <img src="beer.jpg" width="230px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Beer's</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Beer is a fermented beverage enjoyed worldwide, crafted from water, barley, hops, and yeast. It comes in styles like lagers and ales, each offering unique flavors and aromas. </p>
+        </div>
+          <div id="second_child">
+            <img src="wine.jpg" width="145px">
+            <h1 style="font-size: 30px; color: whitesmoke;"> Wine</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;"> Wine is an elegant, time-honored drink made from fermented grapes, with red, white, and rosé varieties offering distinct tastes. From fruity and floral to earthy and bold.</p>
+        </div>
+          <div id="second_child">
+            <img src="whisky.jpg" width="200px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Whisky</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;"> Whisky, often called the "water of life," is a bold, aged spirit distilled from grains like barley, rye, or corn. Crafted with precision and patience, it’s matured in oak barrels, absorbing rich aromas and smoky flavors.</p>
+        </div>
+    </div>
+    <div id="third">
+        <div>
+        </div>
+        <div id="second_child">
+            <img src="cocktail.jpg" width="145px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Cocktails's</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Cocktails are stylish, mixed drinks blending spirits with juices, syrups, bitters, or soda for dynamic flavor and flair. From classics like the Mojito and Martini to modern creations, they showcase creativity.</p>
+        </div>
+          <div id="second_child">
+            <img src="Mocktail.jpg" width="150px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Mocktail's</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;">Mocktails are vibrant, non-alcoholic drinks that mix juices, herbs, soda, and syrups to deliver refreshing flavors without the booze. They’re perfect for anyone seeking a stylish sip with flair and creativity.</p>
+        </div>
+          <div id="second_child">
+            <img src="jucies.jpg" width="135px">
+            <h1 style="font-size: 35px; color: whitesmoke;"> Jucies</h1>
+            <p style="font-size: 15px; color: antiquewhite; width: 230px;"> Juices are nature’s refreshment-extracted from fruits and vegetables.Each juice offers unique taste profiles and health benefits.</p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <div>
+                <p style="font-size: 20px; color: antiquewhite;">&copy; 2025 Great & Kome. All rights reserved.</p>
+            </div>
+            <div id="add">
+                <p style="color: antiquewhite;">Connect in</p>
+                <a href="#"><img src="instagram.png" alt="instagram" width="50px"></a>
+                <a href="#"><img src="facebook.png" alt="facebook" width="50px"></a>
+                <a href="#"><img src="twitter.png" alt="X" width="50px"></a>
+            </div>
+            <div>
+                <a href="karthik_resume.pdf" download=""><button class="nut">My CV</button></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
